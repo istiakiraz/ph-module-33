@@ -4,12 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API, JSON, Data load, dynamic website</title>
+
+    <style>
+        .card{border: 2px solid gray;
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+            background-color: aquamarine;
+            
+
+        }
+    </style>
 </head>
 <body>
     <h1>API, JSON, Data load, dynamic website</h1>
-    <button onclick="handleLoadData()">load data</button>
-    <button onclick="handleLoadData2()">load data2</button>
+    <button onclick="handleLoadData()">load data test 2</button>
+    <button onclick="handleLoadData2()">load data2 test 3</button>
+    <br>
+    <button onclick="loadUser()">load user test 4</button>
 
-    <script src="test3.js"></script>
+    <div>
+        <ul id="users">
+
+        </ul>
+    </div>
+
+    <section>
+        <h1>Load All Post</h1>
+
+        <div id="postContainer" class="post-container">
+            
+        </div>
+
+        <button onclick="handlePost()" >Load Post test5</button>
+    </section>
+
+
+    <script src="test4.js"></script>
+    <script src="test5.js"></script>
+    <script src="test6.js"></script>
 </body>
 </html>
